@@ -11143,6 +11143,15 @@ figure figcaption {
 }
 
 @media (max-width: 991.98px) {
+  html,body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+  }
+
   .img-1, .img-2 {
     position: relative;
     height: 400px;
